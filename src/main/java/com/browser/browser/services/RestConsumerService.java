@@ -2,7 +2,6 @@ package com.browser.browser.services;
 
 import com.browser.browser.models.AlteredNews;
 import com.browser.browser.models.News;
-import com.browser.browser.models.News;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
