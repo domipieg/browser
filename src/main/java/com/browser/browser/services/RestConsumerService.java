@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class RestConsumerService {
-    private static final String API_KEY = "765305ec63694acc89bb7ffa5cefedf7";
+    private static final String API_KEY = "SOME_KEY";
 
     public AlteredNews consume(String country, String category) {
         RestTemplate restTemplate = new RestTemplate();
